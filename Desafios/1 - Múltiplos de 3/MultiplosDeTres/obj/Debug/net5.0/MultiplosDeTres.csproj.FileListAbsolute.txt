@@ -1,0 +1,16 @@
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.exe
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.deps.json
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.runtimeconfig.json
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.runtimeconfig.dev.json
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.dll
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\ref\MultiplosDeTres.dll
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\bin\Debug\net5.0\MultiplosDeTres.pdb
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.csprojAssemblyReference.cache
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.AssemblyInfoInputs.cache
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.AssemblyInfo.cs
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.csproj.CoreCompileInputs.cache
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.dll
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\ref\MultiplosDeTres.dll
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.pdb
+C:\Alura\Desafios\1 - Múltiplos de 3\MultiplosDeTres\obj\Debug\net5.0\MultiplosDeTres.genruntimeconfig.cache
