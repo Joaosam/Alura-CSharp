@@ -10,18 +10,21 @@ public class ContaCorrente
     public void Depositar(double valorDeposito)
     {
         this.saldo += valorDeposito;
-        Console.WriteLine($"O saldo atual de {titular} é de R$ {this.saldo}");
+        Console.WriteLine($"O saldo atual de {titular.nome} é de R$ {this.saldo}!");
     }
 
     public bool Sacar(double valorSaque)
     {
         if (this.saldo < valorSaque) 
         {
+            Console.WriteLine();
+            Console.WriteLine("ERROR!!");
+            Console.WriteLine($"O valor do saque é maior do que o seu saldo atual!");
             return false;
         }
 
         this.saldo -= valorSaque;
-        Console.WriteLine($"O saldo atual de {titular} é de R$ {this.saldo}");
+        Console.WriteLine($"O saldo atual de {titular.nome} é de R$ {this.saldo}!");
         return true;
     }
 
@@ -29,12 +32,15 @@ public class ContaCorrente
     {
         if (this.saldo < valorTransferencia)
         {
+            Console.WriteLine();
+            Console.WriteLine("ERROR!!");
+            Console.WriteLine($"O valor da transferência é maior do que o saldo atual de {titular.nome}!");
             return false;
         }
 
         this.saldo -= valorTransferencia;
         contaDestino.Depositar(valorTransferencia);        
-        Console.WriteLine($"O saldo atual de {contaDestino.titular} é de R$ {this.saldo}");
+        Console.WriteLine($"O saldo atual de {titular.nome} é de R$ {this.saldo}!");
         return true;
     }
     
