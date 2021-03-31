@@ -10,8 +10,8 @@ namespace ByteBank
 
             ContaCorrente primeiraContaCorrente = new ContaCorrente();
             ContaCorrente segundaContaCorrente = new ContaCorrente();
-            primeiraContaCorrente.titular = new Cliente();
-            segundaContaCorrente.titular = new Cliente();         
+            primeiraContaCorrente.Titular = new Cliente();
+            segundaContaCorrente.Titular = new Cliente();         
 
             Console.WriteLine("O que deseja fazer?");
             Console.WriteLine("1 - Depositar");
@@ -20,10 +20,10 @@ namespace ByteBank
             opcao = int.Parse(Console.ReadLine());
 
             Console.Write("Digite o nome do titular da 1° conta: ");
-            primeiraContaCorrente.titular.nome = Console.ReadLine();
+            primeiraContaCorrente.Titular.Nome = Console.ReadLine();
 
-            Console.Write($"Digite o valor do saldo da conta de {primeiraContaCorrente.titular.nome}: ");
-            primeiraContaCorrente.saldo = double.Parse(Console.ReadLine());
+            Console.Write($"Digite o valor do saldo da conta de {primeiraContaCorrente.Titular.Nome}: ");
+            primeiraContaCorrente.Saldo = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
             switch (opcao)
@@ -40,10 +40,10 @@ namespace ByteBank
                     break;
                 case 3:
                     Console.Write("Digite o nome do titular da 2° conta: ");
-                    segundaContaCorrente.titular.nome = Console.ReadLine();
+                    segundaContaCorrente.Titular.Nome = Console.ReadLine();
 
-                    Console.Write($"Digite o valor do saldo da conta de {segundaContaCorrente.titular.nome}: ");
-                    segundaContaCorrente.saldo = double.Parse(Console.ReadLine());
+                    Console.Write($"Digite o valor do saldo da conta de {segundaContaCorrente.Titular.Nome}: ");
+                    segundaContaCorrente.Saldo = double.Parse(Console.ReadLine());
 
                     Console.Write("Quanto deseja transferir? ");
                     double valorTransferencia = double.Parse(Console.ReadLine());
@@ -51,9 +51,9 @@ namespace ByteBank
                     Console.WriteLine();
 
                     Console.Write("Confirme seu CPF sem pontos: ");
-                    segundaContaCorrente.titular.cpf = Console.ReadLine();
+                    segundaContaCorrente.Titular.CPF = Console.ReadLine();
 
-                    if (segundaContaCorrente.titular.cpf.Length == 11)
+                    if (segundaContaCorrente.Titular.CPF.Length == 11 || segundaContaCorrente.Titular.CPF.Length == 14)
                         primeiraContaCorrente.Transferir(valorTransferencia,segundaContaCorrente);
 
                     else 
